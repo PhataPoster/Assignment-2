@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>Assignment-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="inter-font bg-[#1A0B2E]">
+    <header>
+        <nav class="flex justify-between px-4 py-4 items-center border-b-[0.5px] border-[#746e6e]
+           [@media(mix-width:576px)]:px-6 [@media(mix-width:576px)]:py-4
+           [@media(min-width:992px)]:px-50 [@media(min-width:992px)]:py-[36.5px]">
+
+            <div>
+
+                <a href="index.html" class="text-white text-3xl font-bold">Tech<span class=" 
+                    
+           bg-linear-to-tr
+           from-[#F7E93F] via-[#FB09B4] to-[#9100F8]
+           bg-clip-text text-transparent">Wave</span></a>
+
+            </div>
+            <div class="hidden [@media(max-width:576px)]:block">
+                <img src="./B13-A02-TechWave-main/B13-A02-TechWave-main/assets/hamburger-menu.png" alt="hamburger-menu">
+            </div>
+            <div class="[@media(max-width:576px)]:hidden">
+                <ul class="flex gap-8 flex-row">
+                    <li><a href="about.html" class="text-white text-base font-medium">About</a></li>
+                    <li><a href="episodes.html" class="text-white text-base font-medium">Episodes</a></li>
+                    <li><a href="host.html" class="text-white text-base font-medium">Host</a></li>
+                </ul>
+            </div>
+            <div class="[@media(max-width:576px)]:hidden">
+                <button class=" flex justify-center items-center gap-1 bg-linear-to-tr
+           from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[10000px] px-4 py-3 ">
+                    <div>
+                        <p class="text-white text-base font-semibold">
+                            Subscribe
+                        </p>
+                    </div>
+                    <div class="pt-0.5">
+                        <img src="./B13-A02-TechWave-main/B13-A02-TechWave-main/assets/ArrowRight.png" alt="ArrowRight">
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section
+            class="h-[760px] bg-no-repeat bg-cover bg-center bg-[url('B13-A02-TechWave-main/B13-A02-TechWave-main/assets/hero-bg.png')] flex justify-center items-center flex-col gap-4">
+            <div class="flex flex-col justify-center items-center gap-10">
+                <div
+                    class="flex flex-col justify-center items-center bg-no-repeat bg-cover bg-center h-[360px] w-[360px] bg-[url(/B13-A02-TechWave-main/B13-A02-TechWave-main/assets/hero-circle.png)] relative">
+                    <div class=" bg-green-500 rounded-[10000px] px-4 py-1   absolute top-6 right-6">
+                        <p class="text-white font-bold">new</p>
+                    </div>
+                    <div class="">
+                        <img src="./B13-A02-TechWave-main/B13-A02-TechWave-main/assets/microphone.png" alt="">
+                    </div>
+
+                </div>
+                <div class="flex flex-col justify-center items-center gap-6">
+                    <div>
+                        <h1 class="text-white text-6xl font-extrabold">
+                            TechWave
+                        </h1>
+                    </div>
+                    <div>
+                        <p class="text-white text-base font-normal">Your daily dose of tech insights, productivity
+                            hacks,
+                            and personal growth</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <div class=" flex justify-center items-center gap-1 bg-linear-to-tr
+               from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[10000px] px-4 py-3 ">
+                            <div class="pt-0.5"><img
+                                    src="./B13-A02-TechWave-main/B13-A02-TechWave-main/assets/spotify.png"
+                                    alt="spotify">
+                            </div>
+                            <div>
+                                <p class="text-white text-base font-semibold">
+                                    Listen On Spotify
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex justify-center items-center px-4 py-3 gap-1 border-2 border-green-500 rounded-[10000px]">
+                            <div class="pt-0.5"><img
+                                    src="./B13-A02-TechWave-main/B13-A02-TechWave-main/assets/message.png"
+                                    alt="message">
+                            </div>
+                            <div>
+                                <p class="text-green-500 text-base font-semibold">
+                                    Subscribe
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col justify-center items-center pt-[50px] pb-[120px] px-[200px] text-white">
+            <div class="flex flex-col justify-center items-center gap-4 mb-20">
+                <div>
+                    <h2 class="text-5xl font-bold">
+                        About the Podcast
+                    </h2>
+                </div>
+                <div>
+                    <p class="text-base font-normal text-center leading-7">
+                        TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+                        We break down complex topics into digestible insights, explore productivity strategies that
+                        actually work,
+                        and share stories of personal growth from industry leaders.
+                        <br>
+                        Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+                    </p>
+                </div>
+
+            </div>
+            <div class="grid grid-cols-4 gap-10 mt-20 w-full text-center">
+                <div class="">
+                    <h1 class="text-5xl text-green-500 font-extrabold mb-2">
+                        150K+
+                    </h1>
+                    <p class="text-base font-normal ">
+                        Monthly Listeners
+                    </p>
+                </div>
+                <div>
+                    <h1 class="text-5xl text-green-500 font-extrabold mb-2">
+                        200+
+                    </h1>
+                    <p>
+                        Episodes Published
+                    </p>
+                </div>
+                <div>
+                    <h1 class="text-5xl text-green-500 font-extrabold mb-2">
+                        4.9★
+                    </h1>
+                    <p>
+                        Average Rating
+                    </p>
+                </div>
+                <div>
+                    <h1 class="text-5xl text-green-500 font-extrabold mb-2">
+                        50+
+                    </h1>
+                    <p>
+                        industry Experts
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
